@@ -1,6 +1,6 @@
 import React from "react";
 
-const Child=({ showModal, setModal })=>{
+const Child=({showModal,setModal})=>{
 
 return(
 <>
