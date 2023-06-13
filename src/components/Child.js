@@ -6,7 +6,7 @@ return(
 <>
     <h1>Child Component</h1>
     <button onClick={setModal}>Show Model</button>
-    {showModal&&<div><h2>Modal Content</h2><br/><p>This is Modal content</p></div>}
+    {showModal&&<div><h3>Modal Content</h3><br/><p>This is Modal content</p></div>}
 </>)
 }
 
