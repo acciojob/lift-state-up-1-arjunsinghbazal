@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="parent">
         <h1>Parent Component</h1>
-        <Child>showModal={showModal} setModal={setModal}</Child>
+        <Child showModal={showModal} setModal={setModal} />
     </div>
   )
 }
